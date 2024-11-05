@@ -1,4 +1,23 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --main-font-family: "IBM Plex Mono", monospace;
+  --main-text-size: 18px;
+  --main-line-height: 130%;
+
+  /* 116px - 120px */
+  --header-logo-size: clamp(7.25rem, 7.0115rem + 1.017vw, 7.5rem);
+  --header-logo-line-height: 82.5%;
+
+  /* 116px - 120px */
+  --footer-logo-size: clamp(7.25rem, 7.0115rem + 1.017vw, 7.5rem);
+  --footer-logo-line-height: 82.5%;
+
+  --left-section-width: clamp(236px, auto, 315px);
+}
+
+@media (min-width: 768px) {
+  :root {
+    /* 120px - 157px */
+    --header-logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --footer-logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
+}
