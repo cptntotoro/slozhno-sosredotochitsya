@@ -1,4 +1,21 @@
 :root {
+  --main-text-color: #f1b2ce;
+  --main-background-color: #000028;
+  --main-heading-color: #ff0070;
+  --secondary-heading-color: #000028;
+  --logo-color: #db00ff;
+  --section-heading-color: #db00ff;
+  --accent-color: #ff0070;
+  --nav-color: #ff0070;
+  --nav-color-hover: #ff007066;
+  --nav-color-focus: #ff0070;
+  --footer-logo-color: #db00ff;
+  --decoration-zone-color: #ff0070;
+
+  --background-image: url("./../images/cover-image-dark.png");
+
+  --rec-is-displayed: inline-flex;
+
   --main-font-family: "IBM Plex Mono", monospace;
   --main-text-size: 18px;
   --main-line-height: 130%;

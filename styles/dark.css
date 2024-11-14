@@ -1,7 +1,8 @@
 .page.theme_dark {
   --main-text-color: #f1b2ce;
   --main-background-color: #000028;
-  --main-heading-color: #000028;
+  --main-heading-color: #ff0070;
+  --secondary-heading-color: #000028;
   --logo-color: #db00ff;
   --section-heading-color: #db00ff;
   --accent-color: #ff0070;
