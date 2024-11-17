@@ -1,1 +1,9 @@
-https://github.com/cptntotoro/slozhno-sosredotochitsya
+# Посмотри в окно
+HTML, CSS
+
+## О проекте
+Адаптивная pixel perfect вёрстка по макету Figma.
+
+- Протестирована в Firefox, Google Chrome и Yandex Browser
+- Разница верстки и макета составляет не более 10px по вертикали и 5px по горизонтали
+- Доведена до точного соответствия с помощью Pixel Perfect плагина
